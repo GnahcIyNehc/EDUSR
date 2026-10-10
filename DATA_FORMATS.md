@@ -34,6 +34,8 @@ This is a synthetic illustration, not training data from the experiments. The nu
 
 `prepare-inputs` changes input granularity but does not create teacher reasoning targets. Task prompt templates are not datasets.
 
+The paper uses GPT-5.6 to produce EDU-aligned SFT traces, with 5,000 training examples per task. Teacher instructions restrict each local thought to the available prefix. Preparation aligns source records and teacher outputs, checks marker consistency and answer agreement, and rejects incompatible candidates. Uninformative units may receive `<ignore>`. Source and padding positions are masked from the SFT loss. Teacher generation and the preparation merger are not included in this release.
+
 ## RL
 
 JSON arrays and JSONL are supported. A recommended record is:
@@ -43,6 +45,8 @@ JSON arrays and JSONL are supported. A recommended record is:
 ```
 
 Each context-list element should be an already segmented EDU. Supported aliases are defined in `ST_RL/training_utils.py:records_to_samples`.
+
+The paper uses 1,000 RL training examples per task, disjoint from the SFT training set, and 200 validation examples for checkpoint selection. SFT and RL share the same 1,000-example test set per task; policy optimization runs for 100 steps. These describe the paper's data protocol, not datasets bundled with this repository.
 
 ## External assets
 
