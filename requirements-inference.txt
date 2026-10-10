@@ -1,0 +1,7 @@
+-r requirements-core.txt
+transformers==4.55.2
+accelerate>=1.6
+peft>=0.15.2
+datasets>=3.5
+safetensors>=0.4.3
+ijson>=3.3

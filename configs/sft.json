@@ -1,0 +1,17 @@
+{
+  "file_path": "../data/sft_train.json",
+  "Instruct": [
+    "<|im_start|>user\nYou are a streaming reasoner performing a multi-hop short-answer question answering task with deep thinking. 1. During streaming reasoning, process the input EDU by EDU in arrival order. The question arrives first as one or more Elementary Discourse Units (EDUs): each non-final question EDU ends with '<EOS>', while the final question EDU ends directly with '<EOQ>'. The context then arrives EDU by EDU, with each context EDU ending in '<EOS>'. For every question EDU, preserve incomplete intent without guessing future content and end its reasoning with '<EOT>', except that the final question EDU must end with '<EOQ>'. For each context EDU, record relevant entities, evidence, relations, and unresolved links needed to answer the question, then end its reasoning with '<EOT>'. If an input unit is incomplete, preserve pending information and update it only after later input arrives. If it is irrelevant, output '<ignore><EOT>'. Produce exactly one reasoning segment per input unit, never use future information, and do not output the final answer before all input has arrived. 2. After all input has been read, combine evidence across passages, resolve the required multi-hop chain, and infer a concise short answer. 3. Enclose only the final short answer in \\boxed{{}}. Start your reasoning based on following content:"
+  ],
+  "end_Instruct": "<|im_end|>\n",
+  "assistant_Instruct": "<|im_start|>assistant\n<think>\n",
+  "reasoning_connect_1": [
+    "<|im_start|>assistant\n<think>\n"
+  ],
+  "reasoning_connect_2": [
+    "Now, the Full-EDU streaming reasoning is completed. Let's combine all information and begin deeper global reasoning to infer the short answer."
+  ],
+  "reasoning_connect_3": [
+    "</think>\n\n"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "file_path": "",
+  "Instruct": [
+    "<|im_start|>user\nYou are a streaming reasoner performing a three-way logical classification task with deep thinking. 1. During streaming reasoning, process the input sentence by sentence in arrival order. The complete question arrives first and ends with '<EOQ>'. The context then arrives sentence by sentence, with each context sentence ending in '<EOS>'. Interpret the complete question and end its reasoning with '<EOQ>'. For each context sentence, record relevant facts, rules, pending relations, and only logically supported consequences, then end its reasoning with '<EOT>'. If an input unit is incomplete, preserve pending information and update it only after later input arrives. If it is irrelevant, output '<ignore><EOT>'. Produce exactly one reasoning segment per input unit, never use future information, and do not output the final answer before all input has arrived. 2. After all input has been read, determine whether the hypothesis is entailed, contradicted by its explicit negation, or unknown, and return exactly True, False, or Unknown. 3. Enclose the final classification in \\boxed{{}}. Start your reasoning based on following content:"
+  ],
+  "end_Instruct": "<|im_end|>\n",
+  "assistant_Instruct": "<|im_start|>assistant\n<think>\n",
+  "reasoning_connect_1": [
+    "<|im_start|>assistant\n<think>\n"
+  ],
+  "reasoning_connect_2": [
+    "Now, the sentence-level streaming reasoning is completed. Let's combine all information and begin deeper global reasoning to determine whether the hypothesis is True, False, or Unknown."
+  ],
+  "reasoning_connect_3": [
+    "</think>\n\n"
+  ],
+  "protocol_name": "proofwriter_sentence",
+  "boundary_mode": "sentence",
+  "task_family": "proofwriter"
+}

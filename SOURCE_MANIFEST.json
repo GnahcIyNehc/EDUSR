@@ -1,0 +1,450 @@
+{
+  "source_tree": "EDU_Segmentation",
+  "files": [
+    {
+      "path": "EDU_codex/src/stream_edu/__init__.py",
+      "source_sha256": "ed3a5369e0e8abe29808687700c8ad76a3d742aa5d55bdf94a7b5e99c3c52193",
+      "copied_sha256": "ed3a5369e0e8abe29808687700c8ad76a3d742aa5d55bdf94a7b5e99c3c52193"
+    },
+    {
+      "path": "EDU_codex/src/stream_edu/data.py",
+      "source_sha256": "7359d27755699ee9db4dc50fbfbfc15952b35eae31b000086616c23521d7274c",
+      "copied_sha256": "7359d27755699ee9db4dc50fbfbfc15952b35eae31b000086616c23521d7274c"
+    },
+    {
+      "path": "EDU_codex/src/stream_edu/eval_seq.py",
+      "source_sha256": "8c20b7ef62275f645ba00da6046742ea97a9a19c3e60c1f8c8bb533a8138dfcf",
+      "copied_sha256": "8c20b7ef62275f645ba00da6046742ea97a9a19c3e60c1f8c8bb533a8138dfcf"
+    },
+    {
+      "path": "EDU_codex/src/stream_edu/metrics.py",
+      "source_sha256": "277a36b53daa58d834ffbee3f67b6ee0f6d1b3c060d2a0312908db3671ab82ff",
+      "copied_sha256": "277a36b53daa58d834ffbee3f67b6ee0f6d1b3c060d2a0312908db3671ab82ff"
+    },
+    {
+      "path": "EDU_codex/src/stream_edu/seq_model.py",
+      "source_sha256": "bee4b81de5f55002a768da14f1e79b5abd73a4a237cbf8d553c5bec4d512d5f4",
+      "copied_sha256": "bee4b81de5f55002a768da14f1e79b5abd73a4a237cbf8d553c5bec4d512d5f4"
+    },
+    {
+      "path": "EDU_codex/src/stream_edu/train_variant.py",
+      "source_sha256": "9634ec3465d9963e4ea567ef0143225c699f118fa23eca4565c41caa8e7651f9",
+      "copied_sha256": "9634ec3465d9963e4ea567ef0143225c699f118fa23eca4565c41caa8e7651f9"
+    },
+    {
+      "path": "ST_RL/__init__.py",
+      "source_sha256": "f6640e821a4159c429816a7d7fcf885bd9a7d21ede238b4017ba59d2f774dc1a",
+      "copied_sha256": "f6640e821a4159c429816a7d7fcf885bd9a7d21ede238b4017ba59d2f774dc1a"
+    },
+    {
+      "path": "ST_RL/common.py",
+      "source_sha256": "d6f3a7930cbee54fdcd78146793805d3f86204bad4573164f8ebb9fb3ba930fb",
+      "copied_sha256": "d6f3a7930cbee54fdcd78146793805d3f86204bad4573164f8ebb9fb3ba930fb"
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/__init__.py",
+      "source_sha256": "8f02d272b39b1cc11ffad9611d8a11a04d03654b960bcb1da961018e0890ac33",
+      "copied_sha256": "8f02d272b39b1cc11ffad9611d8a11a04d03654b960bcb1da961018e0890ac33"
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/config/edu_blhrpo.yaml",
+      "source_sha256": "8b7d673d6878d51e1d31f90137a693ba5d5f372b1df4bc0e552c687b1d5c74a2",
+      "copied_sha256": "8b7d673d6878d51e1d31f90137a693ba5d5f372b1df4bc0e552c687b1d5c74a2"
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/config.py",
+      "source_sha256": "81d1c2a713553cb6260e7a9fdbb355833b002206f6890ff89ba666b8a04e3ca1",
+      "copied_sha256": "c62235a4a8d1f7f9052e7353a77ae5f9b4ff172537de286990a2c19d8827a074",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/controller.py",
+      "source_sha256": "12ffbede80002e0eda48219e9276df5a4ae421651de294aebe42e3c10477d187",
+      "copied_sha256": "45335fdff7db77e5fe819a35f1b086a7fdbc239bd5ef87de2d7a5f12b09d6537",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/counterfactual.py",
+      "source_sha256": "557f4a1500ec4c9dc50e8ec1e3b19e1c47d6b2d4f7d27d2d30790ef10e562170",
+      "copied_sha256": "137afa5c301fd87c555a280487f379c8f01bf4e5867a8f3c96121f2424cf17ea",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/fsdp_integration.py",
+      "source_sha256": "5cc2d10ff7d962a9d91d0ce09e24ec15082d3f6e409574ca2e388668a9de8424",
+      "copied_sha256": "2eb6cac648ad04d052a25208f0e8a8c5b662016c69aa70a1f3624f06ab3df9fe",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/latency.py",
+      "source_sha256": "f896f54bb6ebaf31dfcf960c94d22cc2dbf231c9c5bbb027db18833e501fbd47",
+      "copied_sha256": "8a06a9887f37ea2331afff2cae77bbf0ba9c3ac8f12fe59cfc3b93ce4533c296",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/masks.py",
+      "source_sha256": "51f61c41bb9e27f6cb6d930c0d8515b9c24cfcf22eb6ab19615710772c79527d",
+      "copied_sha256": "a537e5a4421c03e503b55f3f48994eb036526acd49220abab6eb9541e1db14fc",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/process_verifier.py",
+      "source_sha256": "58686b5edba3e1b2ddbdc612e99a8a66e327bc67ee064624d98f9285a8ea06b4",
+      "copied_sha256": "eff70663929bb3187d0ab0efe74a4eb525a9bc3dc55d614db881bf5a8d1c66eb",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/rewards.py",
+      "source_sha256": "a3a21618babc069c18f6473736c0774fecc75aaa521a6320c38466f17bd9db57",
+      "copied_sha256": "6c7ed7666ccac968abd5b168f8831e1ede3fd74442d73e7ba55d0e44f33d77f3",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/rollout.py",
+      "source_sha256": "9a9291adc97065ec807c1d14bce68990d8519214f2fc71a349ecd980a9976cda",
+      "copied_sha256": "e0d8f4dc970c118a6447416de0d6d006e6533008f1da5e01dbb6512206484fd0",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/task_scorers.py",
+      "source_sha256": "c0120ee0cea9967ac714345dbdcc3188067b90a4b578e1622cf91ff0e216e605",
+      "copied_sha256": "15d05c5676217f3cc9efd0e143d44b4310d880afaa298615973c1ad2fd91911a",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/tests/__init__.py",
+      "source_sha256": "f4d6e407ba82db9cb444431d282324519e75bac509f1ddea5c25ab31df8a472d",
+      "copied_sha256": "f4d6e407ba82db9cb444431d282324519e75bac509f1ddea5c25ab31df8a472d"
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/tests/test_controller.py",
+      "source_sha256": "d14fa4d74f215384bf6adb60e4c1e662a14829fee5209fafef6d95b2776180b0",
+      "copied_sha256": "65b04f402d24ec1b6ad13ec07fa9bd0edef7d4bdbb8280660282a99da17dcb01",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/tests/test_counterfactual.py",
+      "source_sha256": "b03a5652753b0786fc5c2e345f8b47f4e8c6b7d5d920af7471e4dd51339aeddb",
+      "copied_sha256": "5db4e6fab47df1fd8d8e4bc497a1a2f23a77462326fcd9f2e060c5ba033e803c",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/tests/test_fsdp_integration.py",
+      "source_sha256": "db09ebd4d2f2977f43ca5da05a2162769dfe5cbf7c92fd282d3d0a73fcef0f8a",
+      "copied_sha256": "db09ebd4d2f2977f43ca5da05a2162769dfe5cbf7c92fd282d3d0a73fcef0f8a"
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/tests/test_latency.py",
+      "source_sha256": "c81deb035aa0516df289ba3dbd86bd23c7e9d95ae5dfaff9ac661aae01a94dfd",
+      "copied_sha256": "c81deb035aa0516df289ba3dbd86bd23c7e9d95ae5dfaff9ac661aae01a94dfd"
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/tests/test_masks_and_trainer.py",
+      "source_sha256": "6d5dd5d98493bff40f50c6837efcaf0ade23592f6b7f0cdf5a5f4bfe89d6c71f",
+      "copied_sha256": "9f4c298617b567191e379e38a5ab62ff921b9e7f5712ef8359d104d9ebe333f2",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/tests/test_rewards.py",
+      "source_sha256": "ceaeed7a211e45a2d3752386e7054401cc22ca68d0323c9de367e81564c56935",
+      "copied_sha256": "ceaeed7a211e45a2d3752386e7054401cc22ca68d0323c9de367e81564c56935"
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/train_edu_hrpo_fsdp.py",
+      "source_sha256": "9941db95895f18438765f144252893568d0b2c5608c4647d6698a5e3424d1dd2",
+      "copied_sha256": "37db29481090614a21dce10a609f5e606745e0cea4a09cd05c292690712b8d62",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/EDU_HRPO/trainer.py",
+      "source_sha256": "a713023d80fd524f000b89c27c26750d90d39b1a99ddce8ad9afb4af6f822fca",
+      "copied_sha256": "645c062d570c5465553b841853b345adf6a8fce26dcbb1fc9e1f4c234c3ca6c6",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/epoch_shuffle_sampler.py",
+      "source_sha256": "285afe7b3a797c7379fa5f8b73fe27d60a5d9b5866e7ad23d36c74ff10253f13",
+      "copied_sha256": "c4bfe41c4b4a31bef6d72ecef6bab60f1795222718b12a69fa52fd96ad11ef1c",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/HRPO/__init__.py",
+      "source_sha256": "488bcda32b27c9ec1260638cc1bacc07689071d7d461b5b9524d5254f6b73c55",
+      "copied_sha256": "488bcda32b27c9ec1260638cc1bacc07689071d7d461b5b9524d5254f6b73c55"
+    },
+    {
+      "path": "ST_RL/HRPO/chunked_block_mask.py",
+      "source_sha256": "0400a92dbe99926177a2a5652d80720681aaf24a0df688ded1bfcdbb71e01a2d",
+      "copied_sha256": "0400a92dbe99926177a2a5652d80720681aaf24a0df688ded1bfcdbb71e01a2d"
+    },
+    {
+      "path": "ST_RL/HRPO/hrpo.py",
+      "source_sha256": "f5474e8c37f8bfd583e86b8872c90f73d1f3f5bbe460fd6a9f5cb0ead1ca0c23",
+      "copied_sha256": "f5474e8c37f8bfd583e86b8872c90f73d1f3f5bbe460fd6a9f5cb0ead1ca0c23"
+    },
+    {
+      "path": "ST_RL/HRPO/rewards.py",
+      "source_sha256": "2b9944b9ec0d2fb36f04c9dd5432e9e0eda0590842448fc15d4d589bddee0d01",
+      "copied_sha256": "2b9944b9ec0d2fb36f04c9dd5432e9e0eda0590842448fc15d4d589bddee0d01"
+    },
+    {
+      "path": "ST_RL/HRPO/streaming_rollout.py",
+      "source_sha256": "ab4b82deeb78af5f7746e3519d41c0c451e7ef59e365ba159c4caecfb5703769",
+      "copied_sha256": "ac20a26cd6400814a67c92fe6aff334d500efeed7bcc70a19a1948fe56ca8823",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/HRPO/streaming_visibility_cache.py",
+      "source_sha256": "44c4184545a7bc85fde9dfd89c35b35b1ac309def075bb50f54264f84629bdaa",
+      "copied_sha256": "628d8d0d5ce02878ba1ccf63c8c92f4964356bcd4f8fbce7002e4dae40043d40",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/HRPO/streaming_vllm_protocol.py",
+      "source_sha256": "060b52800dc58840a9a429c8e000ec6c9509b6d84590c7d7890969e6b19b8c30",
+      "copied_sha256": "9f37f816b5fe303ee2cf1e43489ce2fac95eff29ecc668478cf000c4906b7bb6",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/HRPO/streaming_vllm_worker.py",
+      "source_sha256": "75445277fde52bda35dd628f1de3c6b164cfde398a4296acfae22e96ac16f6ff",
+      "copied_sha256": "a3b99a5345e106d76dc485290946e7ad511f69489ce408973893c43dce98cf55",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/HRPO/train_hrpo.py",
+      "source_sha256": "9996c62a8f96254358336fb9f666ca5b130ce200ccf8f707a615031f350237b1",
+      "copied_sha256": "c8723c745dfb470059f1157e081639473c189e7a361897be2fbc9a45e2ee9a1c",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/HRPO/train_hrpo_fsdp.py",
+      "source_sha256": "3db863a18648a4478c43173b3bb0e5e1419077bb1a11f48e580a02988df270d6",
+      "copied_sha256": "5016c1f0f3b6374144d33e04fe6e7a93e1000890f7914d13b5d3dd9bc5d8246a",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_configs/hotpotqa_edu.json",
+      "source_sha256": "a79361d2903b2133cf663a43e1f9b9108160f3f643deeb5330ed0de018756b5e",
+      "copied_sha256": "f2c0224d49e887af2f48b8550e6e094bd839072da383804ec19431105a6a73fa",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_configs/hotpotqa_edu_sft_aligned.json",
+      "source_sha256": "a41d117fe05b20ad6c53f4fc4fb01a4a057230256d1b6c3dfcbf7ea79b0353ba",
+      "copied_sha256": "a41d117fe05b20ad6c53f4fc4fb01a4a057230256d1b6c3dfcbf7ea79b0353ba"
+    },
+    {
+      "path": "ST_RL/prompt_configs/hotpotqa_sentence.json",
+      "source_sha256": "a2c9dc4a16146f7cc82c35965e8aa8a9fb83d83b78800e32d73b37f0537d0195",
+      "copied_sha256": "2ad500e898d543330291aede0ce5a6c0ec7099af958b8a9d3c544796b4fd0252",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_configs/logicnli_edu.json",
+      "source_sha256": "4c558346e03d8c4cb9024ed20c0304be3fd72fe433d704f8e44b4d26ba5f1c1a",
+      "copied_sha256": "4839c57f92fdd9712809fdb479b0012b1277ec543450f7998c4ec6d1f0766a74",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_configs/logicnli_sentence.json",
+      "source_sha256": "bf9afbc4e183fc5527a5cdbe22cc7ff5292dcaad469885527aa277d51f67f075",
+      "copied_sha256": "bddb2c32cbb80b53322ecf39e047c9871994598f2a757b453510908ab7c4a0e3",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_configs/math_edu.json",
+      "source_sha256": "d44e0927796af2c7748b26090511ba4b2c33897170c1cefb4facd463491484bb",
+      "copied_sha256": "06fea8a8d0528ae1c510484d8b1669043a95e2cde36c0da06bd2e3e62502a33b",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_configs/math_sentence.json",
+      "source_sha256": "c19c78634c46f891b6cba411fe8e00d806d4ce33539197ded28ae7f0bdc99de4",
+      "copied_sha256": "2cff2220d50216c3380e25f3fae25b8569fe65a1a607e526f0850481dd3189b0",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_configs/proofwriter_edu.json",
+      "source_sha256": "e83a8b3c7f50c0128b399e256f6406be0b9ade4a80f22e8c917437ffae23d307",
+      "copied_sha256": "fbb573960f0126ee692577bc7a009ab86672b084628b243ed368575eb4e1de24",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_configs/proofwriter_sentence.json",
+      "source_sha256": "b1956f19318794c7a3fc1947e05d3b4f284dbd9c1a013d2021e1f8a5ca6a3239",
+      "copied_sha256": "df873f0e5fb9b8033d43b872339622411e81b2d0f04d7be878eb840928e16292",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_configs/pubmedqa_edu.json",
+      "source_sha256": "c1cad137484349f5942f6d65b4ea404bbcc9888b84eb511a0b96c50dccd245fa",
+      "copied_sha256": "7dc2b4b272532460bd7596f2801d2086003c6acf2badca4c5b8d3787448c417b",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_configs/pubmedqa_edu_sft_aligned.json",
+      "source_sha256": "969c4510241087f90475c76b03ba67332cc8cba1bef0eef66b0b01b1db33ad8f",
+      "copied_sha256": "969c4510241087f90475c76b03ba67332cc8cba1bef0eef66b0b01b1db33ad8f"
+    },
+    {
+      "path": "ST_RL/prompt_configs/pubmedqa_sentence.json",
+      "source_sha256": "d2f6006b1c28a7afb7852989b610f01afd60b7ae8750eddb51af562e7a7c0836",
+      "copied_sha256": "e446441e506dfc4e90cd9cc35d4e386ce3d96745109b67ed4d841bd80c172778",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_protocol.py",
+      "source_sha256": "504fb3f4210302fce0658546d104cb7212ce4ac0993cc1d27445907294685f9d",
+      "copied_sha256": "6c74bf8295d163e9d6237dad4d59551bbd2d3bc3eea4ee788a4904d06d21c09a",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/prompt_registry.json",
+      "source_sha256": "1838ad629018447f1b7b6137a1c69a2fc6ba792ac3bbfce36866e27c51033e79",
+      "copied_sha256": "919a79b0be688ab6af31567ec9e013d6ce101ac672f4eb1cdc685d9ec3c17169",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/streaming_protocol.py",
+      "source_sha256": "9bb1bb876e11e985d7dec1aa8b2b24ff45ac09257650431ee5c14ab93b8b63e3",
+      "copied_sha256": "27fd4eae5c4d01630f1ec2f584b815097ebd3fa371fc694ec397949a0be08cc4",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/tokenizer_utils.py",
+      "source_sha256": "0b50fc11c28cf9ce314533787b8009ae5ec7ebe209fb2e3f51188bea48553a27",
+      "copied_sha256": "aec41b8b41df332644d07f24b824f543cdad3dd037411b3631c16c1ae5ccc9a2",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "ST_RL/training_utils.py",
+      "source_sha256": "ac612e4839856c7aa39ac8afea06d3ce9b3dba3b30f0ffa5bd74d2ae8cda77c1",
+      "copied_sha256": "ac612e4839856c7aa39ac8afea06d3ce9b3dba3b30f0ffa5bd74d2ae8cda77c1"
+    },
+    {
+      "path": "Streaming_EDU/src/final_edu/__init__.py",
+      "source_sha256": "1c7779fb35155bf52a128f6593351396ff5812632055fbcc7b17dc4c1f575714",
+      "copied_sha256": "1c7779fb35155bf52a128f6593351396ff5812632055fbcc7b17dc4c1f575714"
+    },
+    {
+      "path": "Streaming_EDU/src/final_edu/cli.py",
+      "source_sha256": "4a40f73bbf1237e0c899d523fb8f65239953b5a6d021fa8453b31bd4a18c50d7",
+      "copied_sha256": "086009f3d91a5947a152ce64b3c195829dbd8452480e3ba1e5f58969669c0db8",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "Streaming_EDU/src/final_edu/features.py",
+      "source_sha256": "a3811f668e014f96873a55b58a2f487360d349ee0856c13ed0d07bc62d7c1464",
+      "copied_sha256": "0c0033e384ef8bbf518356104f0cef6fa1e6337d2f5e53212d5929083018bf8e",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "Streaming_EDU/src/final_edu/model.py",
+      "source_sha256": "afc62ac4d6576609cd9dd00984a0cf71b8e566b4c9290cca8089914daca6be28",
+      "copied_sha256": "afc62ac4d6576609cd9dd00984a0cf71b8e566b4c9290cca8089914daca6be28"
+    },
+    {
+      "path": "Streaming_EDU/src/final_edu/segmenter.py",
+      "source_sha256": "88de52a4b0bb7ccb0ca560aadbbb92029c0cf160cb25d93071df889bb3c6e1a0",
+      "copied_sha256": "445ad2cde73e448e783812d6234bd860e13e7d384e0f929804170e73e9ce8aab",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "StreamingThinker/configs/rl_eval/params_qwen_streamingcot_eval_gsm_symbolic_D2_edu_sft_aligned.json",
+      "source_sha256": "46278322932ebf9cda98cc877b8b8cb9c2687a8a66e1124651ba54597e417e43",
+      "copied_sha256": "4b57c0416efdd68b33777bb1edc8960a786b11d74f4fb877ae6912d96d947b67",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "StreamingThinker/configs/rl_eval/params_qwen_streamingcot_eval_hotpotqa_D2_edu_sft_aligned.json",
+      "source_sha256": "a828cb3c5b1d32ed4c0843493b70e30531123b56fb0dfa9130bb7de28c56f5a8",
+      "copied_sha256": "1093dc92a63617ff846e74bea74e9d868b3e24c70715f0ea567a6c74ce00e7d7",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "StreamingThinker/configs/rl_eval/params_qwen_streamingcot_eval_logicnli_D2_edu_sft_aligned.json",
+      "source_sha256": "1589ad403b9e7c536ee9bfeafc138a3e087a5bf28b696ab288c5ecf27fb6c0ab",
+      "copied_sha256": "2fd5836861d507344766e9ea15e74cc33680f58a648244ede57f3708aa9f6a13",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "StreamingThinker/configs/rl_eval/params_qwen_streamingcot_eval_metamathqa_D2_edu_sft_aligned.json",
+      "source_sha256": "95b95625a7ee4dd86b5dbb51dd7637e992de879f1a95c632ffc935a2f4fc569e",
+      "copied_sha256": "9cee992a938871fb6d316ec7a35e7888e34746d850eea48dcc9ed6bb53f7de76",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "StreamingThinker/configs/rl_eval/params_qwen_streamingcot_eval_proofwriter_D2_edu_sft_aligned.json",
+      "source_sha256": "d0a3c429241a42789c5869b11d72d4b72412d583b685f97edebf805d64c4a911",
+      "copied_sha256": "161a13c5641ad2749911acf7295c2aef200a6ba8d814cf62d6cbd350f417a77b",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "StreamingThinker/configs/rl_eval/params_qwen_streamingcot_eval_pubmedqa_D2_edu_sft_aligned.json",
+      "source_sha256": "181269e8d41b423df3071597b52de4a021fe6788523edd1430aea2b91e42c02a",
+      "copied_sha256": "181269e8d41b423df3071597b52de4a021fe6788523edd1430aea2b91e42c02a"
+    },
+    {
+      "path": "StreamingThinker/dataloader_hf.py",
+      "source_sha256": "bb63429a7592f3db61b5aec9619a022254fde1cb3b80d871568b9be78a5efd61",
+      "copied_sha256": "bb63429a7592f3db61b5aec9619a022254fde1cb3b80d871568b9be78a5efd61"
+    },
+    {
+      "path": "StreamingThinker/evaluate/common.py",
+      "source_sha256": "47e639fcc01df10fcab8b562969e690bb49f451e98c462b55537c76934356c57",
+      "copied_sha256": "47e639fcc01df10fcab8b562969e690bb49f451e98c462b55537c76934356c57"
+    },
+    {
+      "path": "StreamingThinker/evaluate/evaluate_streaming_metrics_devmap_nosplit.py",
+      "source_sha256": "4ffaf13a1b5ce1b6319df32f0e739a58a17dd3fa219e36990fdabb82f95181fc",
+      "copied_sha256": "4ffaf13a1b5ce1b6319df32f0e739a58a17dd3fa219e36990fdabb82f95181fc"
+    },
+    {
+      "path": "StreamingThinker/evaluate/evaluate_streaming_metrics_online_edu.py",
+      "source_sha256": "39e6196fe58e94daa44e082a42c32da6239e50be7e09f0a33ef823386fe25ab0",
+      "copied_sha256": "39e6196fe58e94daa44e082a42c32da6239e50be7e09f0a33ef823386fe25ab0"
+    },
+    {
+      "path": "StreamingThinker/finetune_streaming_strict_modelonly_best.py",
+      "source_sha256": "0f90b35a76903ae3e30536d4426632599b68b3d03d4da15e9baca3f92c3b8124",
+      "copied_sha256": "0f90b35a76903ae3e30536d4426632599b68b3d03d4da15e9baca3f92c3b8124"
+    },
+    {
+      "path": "StreamingThinker/generation/generate.py",
+      "source_sha256": "1f1b1dae093ccd14723f03a66a1731c44fbe0b3cd545e31a6f8e54b28dc72a91",
+      "copied_sha256": "1f1b1dae093ccd14723f03a66a1731c44fbe0b3cd545e31a6f8e54b28dc72a91"
+    },
+    {
+      "path": "StreamingThinker/generation/Stopping_criteria.py",
+      "source_sha256": "f36e8fc7ee175aa29e86ea08bca8a9945bd376f9a4e28f30f0daa4d2903294fc",
+      "copied_sha256": "f36e8fc7ee175aa29e86ea08bca8a9945bd376f9a4e28f30f0daa4d2903294fc"
+    },
+    {
+      "path": "StreamingThinker/online_edu_segmenter.py",
+      "source_sha256": "23fb4c428099c5fcd96a1f0f7027bcc846307e2ce75561cc34d39aa0e7b5dc53",
+      "copied_sha256": "23fb4c428099c5fcd96a1f0f7027bcc846307e2ce75561cc34d39aa0e7b5dc53"
+    },
+    {
+      "path": "StreamingThinker/Qwen3/qwen_streaming.py",
+      "source_sha256": "749de4f3c613a08258a017ef73629fe76df4f6112d9987b12c830892823e77db",
+      "copied_sha256": "b9236b109e5d05fab226edb0560f2795e2015729b3d3fce7e638569054565b99",
+      "modification": "Normalized LF line endings; localized runtime diagnostics and help where applicable. Algorithmic logic and developer comments retained."
+    },
+    {
+      "path": "StreamingThinker/scripts/prepare_full_edu_inputs.py",
+      "source_sha256": "8e05553ccbc3a551148381501d0b101779859c09a827bca6c66a692a2d8a1a3b",
+      "copied_sha256": "8e05553ccbc3a551148381501d0b101779859c09a827bca6c66a692a2d8a1a3b"
+    },
+    {
+      "path": "StreamingThinker/streaming_trainer.py",
+      "source_sha256": "5476b8ed37d50148a243b3e3d72a13e77a502b0384d61e22b2bfe777eafef1d5",
+      "copied_sha256": "5476b8ed37d50148a243b3e3d72a13e77a502b0384d61e22b2bfe777eafef1d5"
+    },
+    {
+      "path": "StreamingThinker/utils.py",
+      "source_sha256": "bec57a17f531d81e434e1b76cbd92b0a914374e37ec4365feb7199b9a135d9f1",
+      "copied_sha256": "bec57a17f531d81e434e1b76cbd92b0a914374e37ec4365feb7199b9a135d9f1"
+    }
+  ]
+}

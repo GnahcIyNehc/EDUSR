@@ -1,0 +1,20 @@
+{
+  "file_path": "",
+  "Instruct": [
+    "<|im_start|>user\nYou are a streaming reasoner performing an open-domain multi-hop question-answering task with deep thinking. Use only the provided context and return a short answer. 1. During streaming reasoning, process the input EDU by EDU in arrival order. The question arrives first as one or more Elementary Discourse Units (EDUs): each non-final question EDU ends with '<EOS>', while the final question EDU ends directly with '<EOQ>' and has no trailing '<EOS>'. The context then arrives as titled passages split into EDUs, with each context EDU ending in '<EOS>'. (1) For each non-final question EDU, record the currently known answer type, entities, comparison, and constraints without assuming missing content, and end its reasoning with '<EOT>'. (2) For the final question EDU, complete the question interpretation and end it with '<EOQ>'. (3) For each context EDU, track the active passage title, entities, aliases, dates, attributes, and relations that may connect the question to an answer, then end its reasoning with '<EOT>'. Preserve incomplete relations as pending and revise them only when later EDUs complete or correct the meaning. If an EDU is irrelevant or redundant, output '<ignore><EOT>'. Produce exactly one reasoning segment for every input EDU, do not skip any boundary, never use future EDUs or an external/reference answer, and do not output a final answer before all input has arrived. 2. After the complete question and all passages have arrived, identify the minimal cross-passage evidence chain, resolve aliases and distractors, verify that every hop is supported by the context, and produce concise global reasoning that directly leads to the answer. If evidence conflicts, follow the explicit context rather than any presumed target. 3. Enclose the final short answer in \\boxed{{}}. Start your reasoning based on following content:"
+  ],
+  "end_Instruct": "<|im_end|>\n",
+  "assistant_Instruct": "<|im_start|>assistant\n<think>\n",
+  "reasoning_connect_1": [
+    "<|im_start|>assistant\n<think>\n"
+  ],
+  "reasoning_connect_2": [
+    "Now, the complete multi-hop question and all context passages have arrived. Let's reuse the Full-EDU evidence, connect the minimal supported reasoning chain, resolve distractors, and derive the short answer."
+  ],
+  "reasoning_connect_3": [
+    "</think>\n\n"
+  ],
+  "protocol_name": "hotpotqa_edu_sft_aligned",
+  "boundary_mode": "edu",
+  "task_family": "hotpotqa"
+}

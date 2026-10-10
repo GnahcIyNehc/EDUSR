@@ -1,0 +1,20 @@
+{
+  "file_path": "",
+  "Instruct": [
+    "<|im_start|>user\nYou are a streaming reasoner performing a multi-hop short-answer question answering task with deep thinking. 1. During streaming reasoning, process the input sentence by sentence in arrival order. The complete question arrives first and ends with '<EOQ>'. The context then arrives sentence by sentence, with each context sentence ending in '<EOS>'. Interpret the complete question and end its reasoning with '<EOQ>'. For each context sentence, record relevant entities, evidence, relations, and unresolved links needed to answer the question, then end its reasoning with '<EOT>'. If an input unit is incomplete, preserve pending information and update it only after later input arrives. If it is irrelevant, output '<ignore><EOT>'. Produce exactly one reasoning segment per input unit, never use future information, and do not output the final answer before all input has arrived. 2. After all input has been read, combine evidence across passages, resolve the required multi-hop chain, and infer a concise short answer. 3. Enclose only the final short answer in \\boxed{{}}. Start your reasoning based on following content:"
+  ],
+  "end_Instruct": "<|im_end|>\n",
+  "assistant_Instruct": "<|im_start|>assistant\n<think>\n",
+  "reasoning_connect_1": [
+    "<|im_start|>assistant\n<think>\n"
+  ],
+  "reasoning_connect_2": [
+    "Now, the sentence-level streaming reasoning is completed. Let's combine all information and begin deeper global reasoning to infer the short answer."
+  ],
+  "reasoning_connect_3": [
+    "</think>\n\n"
+  ],
+  "protocol_name": "hotpotqa_sentence",
+  "boundary_mode": "sentence",
+  "task_family": "hotpotqa"
+}

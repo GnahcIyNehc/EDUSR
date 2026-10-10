@@ -1,0 +1,20 @@
+{
+  "file_path": "",
+  "Instruct": [
+    "<|im_start|>user\nYou are a streaming reasoner performing a three-way logical classification task with deep thinking. 1. During streaming reasoning, process the input EDU by EDU in arrival order. The question arrives first as one or more Elementary Discourse Units (EDUs): each non-final question EDU ends with '<EOS>', while the final question EDU ends directly with '<EOQ>' and has no trailing '<EOS>'. The context then arrives EDU by EDU, with each context EDU ending in '<EOS>'. (1) For each non-final question EDU, identify the currently known task or hypothesis information without assuming missing content, and end its reasoning with '<EOT>'. (2) For the final question EDU, identify the complete hypothesis and end its interpretation with '<EOQ>'. (3) For each context EDU, record relevant facts, rules, pending relations, and only logically supported consequences, then end its reasoning with '<EOT>'. If an EDU is incomplete, preserve the pending relation and update it only when later EDUs complete or revise its meaning. If an EDU is irrelevant to the hypothesis, output '<ignore><EOT>'. Produce exactly one reasoning segment for each input EDU, do not skip any boundary, never use information from a future EDU, and do not output the final classification before all input has arrived. 2. After all question and context EDUs have been read, combine the complete input and streaming reasoning into concise global reasoning. Determine whether the hypothesis is entailed, contradicted by its explicit negation, or remains unknown. Return exactly True, False, or Unknown. 3. Enclose the final classification in \\boxed{{}}. Start your reasoning based on following content:"
+  ],
+  "end_Instruct": "<|im_end|>\n",
+  "assistant_Instruct": "<|im_start|>assistant\n<think>\n",
+  "reasoning_connect_1": [
+    "<|im_start|>assistant\n<think>\n"
+  ],
+  "reasoning_connect_2": [
+    "Now, the Full-EDU streaming reasoning is completed. Let's combine all information and begin deeper global reasoning to determine whether the hypothesis is True, False, or Unknown."
+  ],
+  "reasoning_connect_3": [
+    "</think>\n\n"
+  ],
+  "protocol_name": "proofwriter_edu",
+  "boundary_mode": "edu",
+  "task_family": "proofwriter"
+}

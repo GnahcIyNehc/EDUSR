@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "datasets": {
+    "gsm_symbolic": {
+      "aliases": [
+        "gsm",
+        "gsm-symbolic",
+        "gsmsymbolic",
+        "math"
+      ],
+      "task_type": "math",
+      "evaluation_file": "StreamingThinker/data/eval/streamingcot_gsm_symbolic_p1_1k_eval.json",
+      "protocols": {
+        "sentence": "prompt_configs/math_sentence.json",
+        "edu": "prompt_configs/math_edu.json"
+      }
+    },
+    "metamathqa": {
+      "aliases": [
+        "meta_math_qa",
+        "meta-math-qa"
+      ],
+      "task_type": "math",
+      "evaluation_file": "StreamingThinker/data/eval/streamingcot_metamathqa_1k_eval.json",
+      "protocols": {
+        "sentence": "prompt_configs/math_sentence.json",
+        "edu": "prompt_configs/math_edu.json"
+      }
+    },
+    "hotpotqa": {
+      "aliases": [
+        "hotpot_qa",
+        "hotpot-qa"
+      ],
+      "task_type": "short_answer",
+      "evaluation_file": "StreamingThinker/data/eval/hotpotqa_test_1000_full_edu_eval.json",
+      "protocols": {
+        "sentence": "prompt_configs/hotpotqa_sentence.json",
+        "edu": "prompt_configs/hotpotqa_edu_sft_aligned.json"
+      }
+    },
+    "logicnli": {
+      "aliases": [
+        "logic_nli",
+        "logic-nli"
+      ],
+      "task_type": "logicnli",
+      "evaluation_file": "StreamingThinker/data/eval/logicnli_test_2000_full_edu_eval.json",
+      "protocols": {
+        "sentence": "prompt_configs/logicnli_sentence.json",
+        "edu": "prompt_configs/logicnli_edu.json"
+      }
+    },
+    "proofwriter": {
+      "aliases": [
+        "proof_writer",
+        "proof-writer"
+      ],
+      "task_type": "proofwriter",
+      "evaluation_file": "StreamingThinker/data/eval/proofwriter_test_1000_full_edu_eval.json",
+      "protocols": {
+        "sentence": "prompt_configs/proofwriter_sentence.json",
+        "edu": "prompt_configs/proofwriter_edu.json"
+      }
+    },
+    "pubmedqa": {
+      "aliases": [
+        "pubmed_qa",
+        "pubmed-qa"
+      ],
+      "task_type": "pubmedqa",
+      "evaluation_file": "StreamingThinker/data/eval/pubmedqa_test_1000_full_edu_eval.json",
+      "protocols": {
+        "sentence": "prompt_configs/pubmedqa_sentence.json",
+        "edu": "prompt_configs/pubmedqa_edu_sft_aligned.json"
+      }
+    }
+  }
+}

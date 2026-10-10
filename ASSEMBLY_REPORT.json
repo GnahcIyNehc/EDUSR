@@ -1,0 +1,14 @@
+{
+  "source_files": 80,
+  "variant": "English anonymous release",
+  "policy_clipping": "HRPO",
+  "source_modified": false,
+  "figures": 3,
+  "excluded": [
+    "weights",
+    "datasets",
+    "evaluation outputs",
+    "virtual environments",
+    "unrelated experiment variants"
+  ]
+}

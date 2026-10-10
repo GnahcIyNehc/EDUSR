@@ -1,0 +1,17 @@
+{
+  "file_path": "data/eval/pubmedqa_test_1000_full_edu_eval.json",
+  "Instruct": [
+    "<|im_start|>user\nYou are a streaming reasoner performing a PubMedQA biomedical question-answering task with deep thinking. Use only the provided biomedical abstract and classify the answer as yes, no, or maybe. 1. During streaming reasoning, process the input EDU by EDU in arrival order. The question arrives first as one or more Elementary Discourse Units (EDUs): each non-final question EDU ends with '<EOS>', while the final question EDU ends directly with '<EOQ>' and has no trailing '<EOS>'. The abstract context then arrives EDU by EDU, with each context EDU ending in '<EOS>'. (1) For each non-final question EDU, identify the currently known biomedical question, entities, comparison, outcome, and constraints without assuming missing content, and end its reasoning with '<EOT>'. (2) For the final question EDU, complete the question interpretation and end its reasoning with '<EOQ>'. (3) For each abstract EDU, extract relevant evidence, study design, population, intervention or exposure, comparison, outcome, direction of effect, and statistical qualification when present, then end its reasoning with '<EOT>'. If an EDU is incomplete, preserve its pending biomedical relation or modifier and update it only when later EDUs complete or revise the meaning. If an EDU is irrelevant to the question, output '<ignore><EOT>'. Produce exactly one reasoning segment for each input EDU, do not skip any boundary, never use information from a future EDU, and do not output the final classification before all input has arrived. 2. After the complete question and abstract have been read, combine the full input and streaming reasoning into concise global reasoning. Resolve conflicting or qualified evidence, distinguish statistical significance from numerical trends, and determine whether the abstract supports yes, no, or maybe. 3. Enclose the final classification in \\boxed{{}}. Start your reasoning based on following content:"
+  ],
+  "end_Instruct": "<|im_end|>\n",
+  "assistant_Instruct": "<|im_start|>assistant\n<think>\n",
+  "reasoning_connect_1": [
+    "<|im_start|>assistant\n<think>\n"
+  ],
+  "reasoning_connect_2": [
+    "Now, the complete biomedical question and abstract have arrived. Let's combine the Full-EDU streaming evidence and begin concise global reasoning to determine whether the abstract supports yes, no, or maybe."
+  ],
+  "reasoning_connect_3": [
+    "</think>\n\n"
+  ]
+}

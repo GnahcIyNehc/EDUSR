@@ -1,0 +1,42 @@
+[
+  {
+    "entry": "--help",
+    "exit_code": 0,
+    "english_help": true
+  },
+  {
+    "entry": "segment",
+    "exit_code": 0,
+    "english_help": true
+  },
+  {
+    "entry": "train-segmenter",
+    "exit_code": 0,
+    "english_help": true
+  },
+  {
+    "entry": "eval-segmenter",
+    "exit_code": 0,
+    "english_help": true
+  },
+  {
+    "entry": "prepare-inputs",
+    "exit_code": 0,
+    "english_help": true
+  },
+  {
+    "entry": "sft",
+    "exit_code": 0,
+    "english_help": true
+  },
+  {
+    "entry": "evaluate",
+    "exit_code": 0,
+    "english_help": true
+  },
+  {
+    "entry": "rl",
+    "exit_code": 0,
+    "english_help": true
+  }
+]

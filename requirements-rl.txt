@@ -1,0 +1,2 @@
+-r requirements-inference.txt
+vllm==0.10.2

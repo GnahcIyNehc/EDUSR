@@ -1,0 +1,17 @@
+{
+  "file_path": "data/eval/streamingcot_gsm_symbolic_p1_1k_eval.json",
+  "Instruct": [
+    "<|im_start|>user\nYou are a streaming reasoner to perform streaming reasoning with deep thinking. 1. During streaming reasoning, process the input EDU by EDU in arrival order. The question arrives first as one or more Elementary Discourse Units (EDUs): each non-final question EDU ends with '<EOS>', while the final question EDU ends directly with '<EOQ>' and has no trailing '<EOS>'. The context then arrives EDU by EDU, with each context EDU ending in '<EOS>'. (1) For each non-final question EDU, identify the currently known goal, conditions, and constraints without assuming missing content, and end its reasoning with '<EOT>'. (2) For the final question EDU, complete the question interpretation and end its reasoning with '<EOQ>'. (3) For each context EDU, extract relevant facts, clarify semantic relations, and make only minimal supported inferences or calculations, then end its reasoning with '<EOT>'. If an EDU is incomplete, preserve the pending relation, quantity, or modifier and update it when later EDUs complete or revise the meaning. If an EDU is irrelevant to the question, output '<ignore><EOT>'. Produce exactly one reasoning segment for each input EDU and do not skip any boundary. You may carry supported calculations forward during streaming reasoning, but do not output the final answer before all input has arrived. 2. After all question and context EDUs have been read, combine the complete input and streaming reasoning into concise, focused global reasoning that directly leads to the final answer. 3. Your number or equation answer must be enclosed in \\boxed{{}}. Start your reasoning based on following content:"
+  ],
+  "end_Instruct": "<|im_end|>\n",
+  "assistant_Instruct": "<|im_start|>assistant\n<think>\n",
+  "reasoning_connect_1": [
+    "<|im_start|>assistant\n<think>\n"
+  ],
+  "reasoning_connect_2": [
+    "Now, the Full-EDU streaming reasoning is completed. Let's combine all information and begin deeper & global reasoning to infer the answer."
+  ],
+  "reasoning_connect_3": [
+    "</think>\n\n"
+  ]
+}

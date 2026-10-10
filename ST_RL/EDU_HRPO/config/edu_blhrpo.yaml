@@ -1,0 +1,41 @@
+# EDU-BLHRPO 推荐核心配置。两个 null 项必须由训练系统在启动前派生。
+clip_range: 0.2
+kl_coef: 0.0
+local_weight: 0.05
+normalize_eps: 1.0e-8
+format_weight: 2.0
+rollouts_per_prompt: 12
+
+gamma_attr_s: 0.20
+gamma_attr_d: 0.10
+rho_v: 0.25
+rho_fix: 0.50
+
+exact_weight: 1.0
+gamma_part: 0.20
+beta_eff: 0.05
+beta_s: 0.02
+beta_d: 0.05
+
+alpha_in: 0.10
+alpha_over: 1.00
+stream_cost_mode: overlap_aware
+budget_min: 4
+budget_max: 64
+budget_base: 4
+budget_input_scale: 0.4
+budget_uncertainty_scale: 8
+budget_relevance_scale: 16
+trigger_penalty: 0.05
+
+generation_tokens_per_second: null
+deep_budget: null
+reward_tau: null
+tau_warmup_correct_rollouts: 512
+
+# 默认关闭独立的 skip/defer/think 控制器；开启后 max_merge 才生效。
+enable_edu_controller: false
+max_merge: 3
+stream_probe_max_tokens: 16
+no_stream_probe_max_tokens: 512
+probe_temperature: 0.0

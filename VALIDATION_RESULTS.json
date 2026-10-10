@@ -1,0 +1,12 @@
+{
+  "core_tests": {
+    "passed": 23,
+    "failed": 0
+  },
+  "source_python_ast_structure_unchanged": true,
+  "all_document_links_resolve": true,
+  "personal_path_and_credential_pattern_scan": "no matches",
+  "full_gpu_training_rerun": false,
+  "english_documentation": true,
+  "pdf_metadata_removed": true
+}
